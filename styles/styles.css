@@ -48,7 +48,7 @@
     overflow: hidden;
     width: 554px;
     padding: 40px;
-    margin-left: 90px;
+    margin: 0 auto;
 }
 
 
@@ -249,7 +249,7 @@
 
 .places {
     padding-left: 60px;
-    list-style-image: url(img/disc.png);
+    list-style-image: url(../img/disc.png);
     list-style-position: outside;
 }
 
@@ -409,6 +409,53 @@
     background-color: #E6E6E6;
 }
 
+@media(max-width: 1679px) {
+    .indicators {
+        padding: 0px 135px;
+    }
+
+    .left-colum {
+        max-width: 100%;
+        float: none;
+    }
+
+    .right-colum {
+        max-width: 100%;
+        float: none;
+    }
+}
+
+@media(max-width: 1375px) {
+    .indicators {
+        padding: 0px 40px;
+    }
+
+    .left-area {
+        float: none;
+        max-width: 100%;
+    }
+    .right-area {
+        float: none;
+        max-width: 100%;
+    }
+
+    .left-colum {
+        max-width: 100%;
+        float: none;
+    }
+
+    .right-colum {
+        max-width: 100%;
+        float: none;
+    }
+
+    .header {
+        overflow: inherit;
+        max-width: 100%;
+    }
+
+}
+
 @media(max-width: 750px) {  
     .left-area {
         float: none;
@@ -418,18 +465,16 @@
     .right-area {
         float: none;
         max-width: 100%
-        
     }
 
     .cutaway {
         overflow: hidden;
         width: 554px;
         padding: 40px;
-        margin-left: 35px;
     }
 
     .indicators {
-        padding: 0px 95px;
+        padding: 0px 40px;
     }
 
     .left-colum {
