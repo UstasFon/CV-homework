@@ -456,7 +456,14 @@
 
 }
 
-@media(max-width: 750px) {  
+@media(max-width: 768px) {  
+
+    .places {
+        padding-left: 60px;
+        list-style: disc;
+        list-style-position: outside;
+    }
+
     .left-area {
         float: none;
         max-width: 100%;
@@ -485,5 +492,892 @@
     .right-colum {
         float: none;
         max-width: 100%;
+    }
+}
+
+@media(max-width: 634px) {  
+
+    .ability {
+        margin-top: 100px;
+        overflow: hidden;
+    }
+
+    .places {
+        padding-left: 60px;
+        list-style: disc;
+        list-style-position: outside;
+    }
+
+    .left-area {
+        float: none;
+        max-width: 100%;
+    }
+    
+    .right-area {
+        float: none;
+        max-width: 100%
+    }
+
+    .cutaway {
+        overflow: hidden;
+        width: 554px;
+        padding: 40px;
+    }
+
+    .indicators {
+        padding: 0px 40px;
+    }
+
+    .left-colum {
+        float: none;
+        max-width: 100%;
+    }
+
+    .right-colum {
+        float: none;
+        max-width: 100%;
+    }
+    
+}
+
+@media(max-width: 415px) {
+
+    .ability {
+        margin-top: 10px;
+    }
+
+    .border{
+        display: none;
+    }
+
+    .border--contact {
+        display: none;
+    }
+
+    .border--education {
+        display: none;
+    }
+
+    .border--expirience {
+        display: none;
+    }
+
+    .border--skills {
+        display: none;
+    }
+
+    .border--software {
+        display: none;
+    }
+
+    .photo {
+        margin: 0 auto;
+        box-sizing: border-box;
+        width: 265px;
+        height: 265px;
+        max-width: 265px;
+        border-radius: 50%;
+        border: 1px solid #3D6CB0;
+        padding: 27px;
+    }
+
+    .photo__img {
+        width: 206px;
+        height: 206px;
+        max-height: 206px;
+    }
+
+    .cutaway {
+        overflow: hidden;
+        width: 305px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .cutaway__first {
+        margin-top: 54px;
+        font-size: 54px;
+        text-align: center;
+        font-family: 'Myriad Pro Light';
+    }
+
+    .name__second {
+        font-size: 60px;
+        text-align: center;
+        font-family: 'Myriad Pro Bold';
+        font-stretch: ultra-condensed;
+    }
+
+    .photo__img--small {
+        width: 100px;
+        height: 100px;
+        max-height: 100px;
+    }
+
+    .header__logo {
+        font-size: 33px;
+        color: #3D6CB0;
+        font-family: 'Myriad Pro Bold';
+        text-align: left;
+        margin: 20px 1px 1px 116px;
+    }
+    
+    .profile {
+        max-width: 100%;
+        margin-top: 55px;
+    }
+
+    .profile__text {
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Myriad Pro Light';
+    }
+
+    .header {
+        overflow: hidden;
+        max-width: 100%;
+        padding-top: 20px;
+    }
+
+    .contact {
+        max-width: 100%;
+        margin-top: 48px;
+    }
+    
+    .contact__headline {
+        font-size: 21px;
+        font-family: 'Myriad Pro Bold';
+        color: #3D6CB0;
+        margin-top: 55px;
+    }
+
+    .contact__data {
+        margin-left: 20px;
+        font-size: 21px;
+        font-family: 'Myriad Pro Light';
+        color: #161616;
+    }
+    .skills {
+        padding-top: 35px;
+    }
+
+    .indicators {
+        padding: 0px 10px;
+    }
+
+    .indicators__logo {
+        text-align: center;
+        font-size: 31px;
+        font-family: 'Myriad Pro Light';
+    }
+
+    .levels__item {
+        margin: 3px 3px 3px 3px;
+        height: 36px;
+        width: 36px;
+        max-width: 36px;
+        border-radius: 50%;
+        background-color: #3D6CB0;
+        padding-left: 15px;
+    }
+
+    .levels__item--inactive {
+        margin: 3px 3px 3px 3px;
+        height: 36px;
+        width: 36px;
+        max-width: 36px;
+        border-radius: 50%;
+        background-color: #E6E6E6;
+        padding-left: 15px;
+    }
+
+    .places {
+        padding-left: 0px;
+        margin: 0 auto;
+        list-style: disc;
+        list-style-position: outside;
+    }
+
+    .places__item {
+        margin-top: 20px;
+    }
+
+    .places__logo {
+        margin-left: 30px;
+        font-size: 31px;
+        font-family: 'Myriad Pro Bold';
+        color: #3D6CB0;
+    }
+
+    .places__data {
+        margin-left: 0px;
+        font-size: 31px;
+        font-family: 'Myriad Pro Light';
+        color: #161616;
+    }
+
+    .places__data--name {
+        margin-top: 10px;
+        margin-left: 30px;
+        font-size: 31px;
+        font-family: 'Myriad Pro Light';
+        color: #161616;
+    }
+
+    .places__text {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 20px;
+        font-family: 'Myriad Pro Light';
+    }
+
+    .places__logo--company {
+        margin-left: 19px;
+        font-size: 31px;
+        font-family: 'Myriad Pro Bold';
+        color: #161616;
+    }
+
+    .ability {
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .loading-bar {
+        overflow: hidden;
+        width: 255px;
+        height: 25px;
+    }
+
+    .loading-bar__activ {
+        box-sizing: border-box;
+        width: 205px;
+        height: 25px;
+        float: left;
+        background-color: #3D6CB0;
+    }
+
+    .level-solid {
+        margin-top: 30px;
+    }
+
+    .loading-bar__activ--illustrator {
+        box-sizing: border-box;
+        width: 140px;
+        height: 25px;
+        float: left;
+        background-color: #3D6CB0;
+    }
+
+    .loading__bar__no-activ--illustrator {
+        box-sizing: border-box;
+        width: 115px;
+        height: 25px;
+        float: right;
+        background-color: #E6E6E6;
+    }
+
+    .loading-bar__activ--indesign {
+        box-sizing: border-box;
+        width: 210px;
+        height: 25px;
+        float: left;
+        background-color: #3D6CB0;
+    }
+
+    .loading__bar__no-activ--indesign {
+        box-sizing: border-box;
+        width: 45px;
+        height: 25px;
+        float: right;
+        background-color: #E6E6E6;
+    }
+
+    .loading-bar__activ--dreamweaver {
+        box-sizing: border-box;
+        width: 160px;
+        height: 25px;
+        float: left;
+        background-color: #3D6CB0;
+    }
+
+    .loading__bar__no-activ--dreamweaver {
+        box-sizing: border-box;
+        width: 95px;
+        height: 25px;
+        float: right;
+        background-color: #E6E6E6;
+    }
+
+    .loading-bar__activ--effects {
+        box-sizing: border-box;
+        width: 140px;
+        height: 25px;
+        float: left;
+        background-color: #3D6CB0;
+    }
+
+    .loading__bar__no-activ--effects {
+        box-sizing: border-box;
+        width: 115px;
+        height: 25px;
+        float: right;
+        background-color: #E6E6E6;
+    }
+
+    .loading-bar__activ--HTML {
+        box-sizing: border-box;
+        width: 205px;
+        height: 25px;
+        float: left;
+        background-color: #3D6CB0;
+    }
+
+    .loading__bar__no-activ--HTML {
+        box-sizing: border-box;
+        width: 50px;
+        height: 25px;
+        float: right;
+        background-color: #E6E6E6;
+    }
+}
+
+@media(max-width: 360px) {
+    .photo {
+        margin: 0 auto;
+        box-sizing: border-box;
+        width: 265px;
+        height: 265px;
+        max-width: 265px;
+        border-radius: 50%;
+        border: 1px solid #3D6CB0;
+        padding: 27px;
+    }
+
+    .photo__img {
+        width: 206px;
+        height: 206px;
+        max-height: 206px;
+    }
+
+    .cutaway {
+        overflow: hidden;
+        width: 305px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .cutaway__first {
+        margin-top: 54px;
+        font-size: 54px;
+        text-align: center;
+        font-family: 'Myriad Pro Light';
+    }
+
+    .name__second {
+        font-size: 60px;
+        text-align: center;
+        font-family: 'Myriad Pro Bold';
+        font-stretch: ultra-condensed;
+    }
+
+    .photo__img--small {
+        width: 100px;
+        height: 100px;
+        max-height: 100px;
+    }
+
+    .header__logo {
+        font-size: 33px;
+        color: #3D6CB0;
+        font-family: 'Myriad Pro Bold';
+        text-align: left;
+        margin: 20px 1px 1px 116px;
+    }
+    
+    .profile {
+        max-width: 100%;
+        margin-top: 55px;
+    }
+
+    .profile__text {
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Myriad Pro Light';
+    }
+
+    .header {
+        overflow: hidden;
+        max-width: 100%;
+        padding-top: 20px;
+    }
+
+    .contact {
+        max-width: 100%;
+        margin-top: 48px;
+    }
+    
+    .contact__headline {
+        font-size: 21px;
+        font-family: 'Myriad Pro Bold';
+        color: #3D6CB0;
+        margin-top: 55px;
+    }
+
+    .contact__data {
+        margin-left: 20px;
+        font-size: 21px;
+        font-family: 'Myriad Pro Light';
+        color: #161616;
+    }
+    .skills {
+        padding-top: 35px;
+    }
+
+    .indicators {
+        padding: 0px 10px;
+    }
+
+    .indicators__logo {
+        text-align: center;
+        font-size: 31px;
+        font-family: 'Myriad Pro Light';
+    }
+
+    .levels__item {
+        margin: 3px 3px 3px 3px;
+        height: 36px;
+        width: 36px;
+        max-width: 36px;
+        border-radius: 50%;
+        background-color: #3D6CB0;
+        padding-left: 15px;
+    }
+
+    .levels__item--inactive {
+        margin: 3px 3px 3px 3px;
+        height: 36px;
+        width: 36px;
+        max-width: 36px;
+        border-radius: 50%;
+        background-color: #E6E6E6;
+        padding-left: 15px;
+    }
+
+    .places {
+        padding-left: 0px;
+        margin: 0 auto;
+        list-style: disc;
+        list-style-position: outside;
+    }
+
+    .places__item {
+        margin-top: 20px;
+    }
+
+    .places__logo {
+        margin-left: 30px;
+        font-size: 31px;
+        font-family: 'Myriad Pro Bold';
+        color: #3D6CB0;
+    }
+
+    .places__data {
+        margin-left: 0px;
+        font-size: 31px;
+        font-family: 'Myriad Pro Light';
+        color: #161616;
+    }
+
+    .places__data--name {
+        margin-top: 10px;
+        margin-left: 30px;
+        font-size: 31px;
+        font-family: 'Myriad Pro Light';
+        color: #161616;
+    }
+
+    .places__text {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 20px;
+        font-family: 'Myriad Pro Light';
+    }
+
+    .places__logo--company {
+        margin-left: 19px;
+        font-size: 31px;
+        font-family: 'Myriad Pro Bold';
+        color: #161616;
+    }
+
+    .ability {
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .loading-bar {
+        overflow: hidden;
+        width: 255px;
+        height: 25px;
+    }
+
+    .loading-bar__activ {
+        box-sizing: border-box;
+        width: 205px;
+        height: 25px;
+        float: left;
+        background-color: #3D6CB0;
+    }
+
+    .level-solid {
+        margin-top: 30px;
+    }
+
+    .loading-bar__activ--illustrator {
+        box-sizing: border-box;
+        width: 140px;
+        height: 25px;
+        float: left;
+        background-color: #3D6CB0;
+    }
+
+    .loading__bar__no-activ--illustrator {
+        box-sizing: border-box;
+        width: 115px;
+        height: 25px;
+        float: right;
+        background-color: #E6E6E6;
+    }
+
+    .loading-bar__activ--indesign {
+        box-sizing: border-box;
+        width: 210px;
+        height: 25px;
+        float: left;
+        background-color: #3D6CB0;
+    }
+
+    .loading__bar__no-activ--indesign {
+        box-sizing: border-box;
+        width: 45px;
+        height: 25px;
+        float: right;
+        background-color: #E6E6E6;
+    }
+
+    .loading-bar__activ--dreamweaver {
+        box-sizing: border-box;
+        width: 160px;
+        height: 25px;
+        float: left;
+        background-color: #3D6CB0;
+    }
+
+    .loading__bar__no-activ--dreamweaver {
+        box-sizing: border-box;
+        width: 95px;
+        height: 25px;
+        float: right;
+        background-color: #E6E6E6;
+    }
+
+    .loading-bar__activ--effects {
+        box-sizing: border-box;
+        width: 140px;
+        height: 25px;
+        float: left;
+        background-color: #3D6CB0;
+    }
+
+    .loading__bar__no-activ--effects {
+        box-sizing: border-box;
+        width: 115px;
+        height: 25px;
+        float: right;
+        background-color: #E6E6E6;
+    }
+
+    .loading-bar__activ--HTML {
+        box-sizing: border-box;
+        width: 205px;
+        height: 25px;
+        float: left;
+        background-color: #3D6CB0;
+    }
+
+    .loading__bar__no-activ--HTML {
+        box-sizing: border-box;
+        width: 50px;
+        height: 25px;
+        float: right;
+        background-color: #E6E6E6;
+    }
+}
+
+@media(max-width: 320px) {
+    .photo {
+        margin: 0 auto;
+        box-sizing: border-box;
+        width: 265px;
+        height: 265px;
+        max-width: 265px;
+        border-radius: 50%;
+        border: 1px solid #3D6CB0;
+        padding: 27px;
+    }
+
+    .photo__img {
+        width: 206px;
+        height: 206px;
+        max-height: 206px;
+    }
+
+    .cutaway {
+        overflow: hidden;
+        width: 305px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .cutaway__first {
+        margin-top: 54px;
+        font-size: 54px;
+        text-align: center;
+        font-family: 'Myriad Pro Light';
+    }
+
+    .name__second {
+        font-size: 60px;
+        text-align: center;
+        font-family: 'Myriad Pro Bold';
+        font-stretch: ultra-condensed;
+    }
+
+    .photo__img--small {
+        width: 100px;
+        height: 100px;
+        max-height: 100px;
+    }
+
+    .header__logo {
+        font-size: 33px;
+        color: #3D6CB0;
+        font-family: 'Myriad Pro Bold';
+        text-align: left;
+        margin: 20px 1px 1px 116px;
+    }
+    
+    .profile {
+        max-width: 100%;
+        margin-top: 55px;
+    }
+
+    .profile__text {
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Myriad Pro Light';
+    }
+
+    .header {
+        overflow: hidden;
+        max-width: 100%;
+        padding-top: 20px;
+    }
+
+    .contact {
+        max-width: 100%;
+        margin-top: 48px;
+    }
+    
+    .contact__headline {
+        font-size: 21px;
+        font-family: 'Myriad Pro Bold';
+        color: #3D6CB0;
+        margin-top: 55px;
+    }
+
+    .contact__data {
+        margin-left: 20px;
+        font-size: 21px;
+        font-family: 'Myriad Pro Light';
+        color: #161616;
+    }
+    .skills {
+        padding-top: 35px;
+    }
+
+    .indicators {
+        padding: 0px 10px;
+    }
+
+    .levels__item {
+        margin: 3px 3px 3px 3px;
+        height: 36px;
+        width: 36px;
+        max-width: 36px;
+        border-radius: 50%;
+        background-color: #3D6CB0;
+        padding-left: 15px;
+    }
+
+    .levels__item--inactive {
+        margin: 3px 3px 3px 3px;
+        height: 36px;
+        width: 36px;
+        max-width: 36px;
+        border-radius: 50%;
+        background-color: #E6E6E6;
+        padding-left: 15px;
+    }
+
+    .places {
+        padding-left: 0px;
+        margin: 0 auto;
+        list-style: disc;
+        list-style-position: outside;
+    }
+
+    .places__item {
+        margin-top: 20px;
+    }
+
+    .places__logo {
+        margin-left: 30px;
+        font-size: 31px;
+        font-family: 'Myriad Pro Bold';
+        color: #3D6CB0;
+    }
+
+    .places__data {
+        margin-left: 0px;
+        font-size: 31px;
+        font-family: 'Myriad Pro Light';
+        color: #161616;
+    }
+
+    .places__data--name {
+        margin-top: 10px;
+        margin-left: 30px;
+        font-size: 31px;
+        font-family: 'Myriad Pro Light';
+        color: #161616;
+    }
+
+    .places__text {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 20px;
+        font-family: 'Myriad Pro Light';
+    }
+
+    .places__logo--company {
+        margin-left: 19px;
+        font-size: 31px;
+        font-family: 'Myriad Pro Bold';
+        color: #161616;
+    }
+
+    .ability {
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .loading-bar {
+        overflow: hidden;
+        width: 255px;
+        height: 25px;
+    }
+
+    .loading-bar__activ {
+        box-sizing: border-box;
+        width: 205px;
+        height: 25px;
+        float: left;
+        background-color: #3D6CB0;
+    }
+
+    .level-solid {
+        margin-top: 30px;
+    }
+
+    .loading-bar__activ--illustrator {
+        box-sizing: border-box;
+        width: 140px;
+        height: 25px;
+        float: left;
+        background-color: #3D6CB0;
+    }
+
+    .loading__bar__no-activ--illustrator {
+        box-sizing: border-box;
+        width: 115px;
+        height: 25px;
+        float: right;
+        background-color: #E6E6E6;
+    }
+
+    .loading-bar__activ--indesign {
+        box-sizing: border-box;
+        width: 210px;
+        height: 25px;
+        float: left;
+        background-color: #3D6CB0;
+    }
+
+    .loading__bar__no-activ--indesign {
+        box-sizing: border-box;
+        width: 45px;
+        height: 25px;
+        float: right;
+        background-color: #E6E6E6;
+    }
+
+    .loading-bar__activ--dreamweaver {
+        box-sizing: border-box;
+        width: 160px;
+        height: 25px;
+        float: left;
+        background-color: #3D6CB0;
+    }
+
+    .loading__bar__no-activ--dreamweaver {
+        box-sizing: border-box;
+        width: 95px;
+        height: 25px;
+        float: right;
+        background-color: #E6E6E6;
+    }
+
+    .loading-bar__activ--effects {
+        box-sizing: border-box;
+        width: 140px;
+        height: 25px;
+        float: left;
+        background-color: #3D6CB0;
+    }
+
+    .loading__bar__no-activ--effects {
+        box-sizing: border-box;
+        width: 115px;
+        height: 25px;
+        float: right;
+        background-color: #E6E6E6;
+    }
+
+    .loading-bar__activ--HTML {
+        box-sizing: border-box;
+        width: 205px;
+        height: 25px;
+        float: left;
+        background-color: #3D6CB0;
+    }
+
+    .loading__bar__no-activ--HTML {
+        box-sizing: border-box;
+        width: 50px;
+        height: 25px;
+        float: right;
+        background-color: #E6E6E6;
     }
 }
